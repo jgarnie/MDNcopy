@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+.sidebar{
+    width: 29%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+    overflow: hidden;
+    padding-top: 1rem;
+    
+}
+.sidebar a {
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border: 1px solid black;
+    background-color: aqua;
+  }
+  a :hover{
+      background-color: brown;
+      color:yellow;
+  }
+  .container {
+    margin-left: 30%; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
